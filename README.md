@@ -7,7 +7,7 @@ This project offers basic interfaces and implementations for usage of events sou
 This Kotlin library offers a way for starting with Event sourcing and its target is to provide 
 an technical solution agnostic implementation.
 
-With this libray you can:
+With this library you can:
 
 + Build Event from object
 + Implement an interface for saving these events
