@@ -14,6 +14,6 @@ With this library you can:
 
 The current implementation only provides an in-memory unified log.
 
-To see usage, I invite you to read tests file.
+To see usage, I invite you to read test files.
 
 
