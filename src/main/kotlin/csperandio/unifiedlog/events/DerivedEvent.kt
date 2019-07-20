@@ -2,6 +2,16 @@ package csperandio.unifiedlog.events
 
 import java.util.*
 
+/**
+ * An Event depends on another Event.
+ *
+ * @param type The of the event
+ * @param data Information stored inside the event
+ * @property origin The source event
+ * @param id Event id
+ * @param timestamp Timestamp of the event creation
+ * @constructor Build a derived event
+ */
 class DerivedEvent(
     type: EventType,
     data: ByteArray,

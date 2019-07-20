@@ -6,6 +6,9 @@ import java.lang.IndexOutOfBoundsException
 
 /**
  * Walks along an event storage.
+ *
+ * @param storage Place where events will be stored.
+ * @constructor Build a walker is linked to a EventStorage
  */
 class Walker(private val storage: EventStorage) {
     private var offset = 0

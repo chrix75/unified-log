@@ -2,6 +2,11 @@ package csperandio.unifiedlog.storage
 
 import csperandio.unifiedlog.events.Event
 
+/**
+ * Saves event in a list.
+ *
+ * @constructor Builds an empty storage
+ */
 class InMemoryEventStorage : EventStorage {
     private val events = mutableListOf<Event>()
 
