@@ -16,4 +16,11 @@ The current implementation only provides an in-memory unified log.
 
 To see usage, I invite you to read test files.
 
-
+## Maven Dependency
+```xml
+<dependency>
+  <groupId>com.github.chrix75</groupId>
+  <artifactId>unified-log</artifactId>
+  <version>0.2.1</version>
+</dependency>
+```
